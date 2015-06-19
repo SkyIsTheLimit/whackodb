@@ -1,0 +1,30 @@
+{
+  "name": "whackodb",
+  "version": "0.0.2",
+  "description": "A very simple In Memory / JSON File based DB.",
+  "main": "lib/whacko.js",
+  "bin": {
+    "whacko": "lib/repl.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkyIsTheLimit/whackodb.git"
+  },
+  "keywords": [
+    "json",
+    "db",
+    "node"
+  ],
+  "author": "Sandeep Prasad",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/SkyIsTheLimit/whackodb/issues"
+  },
+  "homepage": "https://github.com/SkyIsTheLimit/whackodb"
+}
